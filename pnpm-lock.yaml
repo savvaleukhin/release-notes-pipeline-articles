@@ -18,7 +18,21 @@ importers:
         specifier: ^3.0.0
         version: 3.2.7(@types/node@24.19.1)
 
-  evidence/tracing: {}
+  evidence/tracing:
+    dependencies:
+      '@google/adk':
+        specifier: ^2.2.0
+        version: 2.2.0(@grpc/grpc-js@1.14.5)
+      '@opentelemetry/api':
+        specifier: 1.9.0
+        version: 1.9.0
+    devDependencies:
+      '@opentelemetry/sdk-trace-base':
+        specifier: ^2.11.0
+        version: 2.11.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/sdk-trace-node':
+        specifier: ^2.1.0
+        version: 2.11.0(@opentelemetry/api@1.9.0)
 
   release-notes/fixtures: {}
 
