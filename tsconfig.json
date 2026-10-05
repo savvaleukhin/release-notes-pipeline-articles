@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "evidence/tracing" },
+    { "path": "release-notes/fixtures" },
+    { "path": "release-notes/generate" }
+  ]
+}

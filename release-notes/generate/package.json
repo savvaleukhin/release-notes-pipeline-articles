@@ -1,0 +1,17 @@
+{
+  "name": "@release-notes/generate",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@evidence/tracing": "workspace:*",
+    "@google/adk": "^2.2.0",
+    "@release-notes/fixtures": "workspace:*"
+  }
+}

@@ -1,0 +1,9 @@
+packages:
+  - "evidence/*"
+  - "release-notes/*"
+allowBuilds:
+  '@google/genai': false
+  cpu-features: false
+  esbuild: true
+  protobufjs: true
+  ssh2: false
